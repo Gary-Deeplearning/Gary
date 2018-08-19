@@ -3,84 +3,66 @@ layout: cv
 title: Wode "Nimo" Ni
 pdf: true
 ---
-# Wode __Ni__
+# 刘福旭
 
 <div id="webaddress">
-<i class="fi-home" style="margin-left:1em"></i>
-<a href="http://www.cs.cmu.edu/~woden" style="margin-left:0.5em">cs.cmu.edu/~woden</a>
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="woden@cs.cmu.edu" style="margin-left:0.5em">woden@cs.cmu.edu</a>
+<a href="904849722@qq.com" style="margin-left:0.5em">904849722@qq.com</a>
 </div>
 
-## Education
+## 个人信息
+- 刘福旭/男/1995
+- 联系方式：15728134982
+- 邮箱：904849722@qq.com
+- 微信：m656120722
+- CSDN博客：[https://blog.csdn.net/Gary___](https://blog.csdn.net/Gary___)
+- github: [https://github.com/Gary-Deeplearning](https://github.com/Gary-Deeplearning)
+- 微信公众号：Gary_Cver
+- 期望职位：计算机视觉工程师/机器学习工程师
+- 期望城市：深圳/广州
 
-### __Carnegie Mellon University__ `2018.9 -`
+## 教育
+
+### __东莞理工学院__ `2015.9 - 至今`
 ```
 Pittsburgh, PA
 ```
-- Ph.D. in Software Engineering
+- 网络工程
+- GPA：3.52
+- 主修课程：《算法与数据结构》、《高等数学》、《离散数学》、《面向对象编程》等
+- 曾任职务：班长
 
-### __Columbia University__ `2016.9 - 2018.5`
-```
-New York, NY
-```
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+## 项目
 
-### __Dickinson College__ `2013.9 - 2016.5`
-```
-Carlisle, PA
-```
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+### __基于目标检测的自动收银解决方案__  `2018.7 - 至今`
+_Programmer_<br>
+此项目旨在解决超市/零售商店或高校食堂，当较多人数排队结账时所造成的拥堵问题。本人在YOLO-V3的基础上，重新训练了基于商品数据的模型，目前获得较好的效果。基于计算机的快速与高准确率的检测，可很大程度地减缓排队的拥堵问题，也提高了结账效率。
 
-## Publications
+### __基于内容的图像检索系统__ `2018.4 - 2018-5`
+_Programmer__<br>
+此项目旨在解决用户在寻找大量相似图片/或找寻类似的图片。本人在各种CNN模型上，尝试提取图片数据库的图片特征，将用户上传的图片进行相似度量函数对比，而获得Top-K的相似图片，已返回到用户。
 
-### [__Substance and Style: domain-specific languages for mathematical diagrams__](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
-__Wode Ni\*__, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br>  _Domain-Specific Language Design and Implementation (DSLDI 2017),  co-located with SPLASH._ <br>
-[[PDF](assets/dsldi.pdf)]
-[[slides](assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
+### __基于视觉的无人驾驶模拟玩家__ `2018.3 - 2018.5`
+_Programmer___<br>
+此项目旨在在GTA游戏的模拟真实驾驶环境下，进行大量的手动驾驶数据的收集，用于训练CNN模型，从而获得高精度的驾驶方向判断，可用于游戏中的模拟自动驾驶。
 
-### [__Whiteboard Scanning Using Super-Resolution__](http://scholar.dickinson.edu/student_honors/221/)
-__Wode Ni__.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](assets/superres.pdf)]
+## 获奖荣誉
 
-## Experience
+校二等奖学金 `2016` <br>
+优秀大学生 `2016` <br>
+校一等奖学金 `2017` <br>
+优秀大学生 `2017` <br>
+优秀学生干部 `2017` <br>
 
-### __Carnegie Mellon University, Research Experiences for Undergraduate__  `2017.5 - 2017.8`
-_Research Assistant_<br>
-__Penrose__ is a system that automatically visualizes mathematics using two domain-specific languages: __Substance__ and __Style__. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
+## 个人技能
+- 编程语言：Python/C++
+- 框架：TensorFlow/Keras/Sklearn/Python
+- 图像处理：Opencv
+- 算法：基础算法与数据结构/传统机器学习算法/DNN/CNN
+- 数据库相关：MySQL
+- 操作系统：Win/Linux
 
-### __Columbia University, Computer Graphics and User Interfaces Lab__ `2017.1 - 2017.5`
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on __Cyber Affordance Visualization in Augumented Reality__ project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### __AsiaInfo__ `2015.6 - 2015.8`
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
-
-
-## Teaching
-
-Teaching Assistant, __Programming Languages and Translators (COMS 4115)__ `Columbia, 2017 - 2018` <br>
-Teaching Assistant, __Introduction to Java II (COMP 132)__ `Dickinson, 2016` <br>
-Peer Tutor, __Data Structures and Problem Solving (COMP 232)__ `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
-
-## Honors & Awards
-
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society  `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
+## 致谢
+感谢您花时间阅读我的简历，期待能有机会和您共事。
 <!-- ### Footer
-
-Last updated: May 2013 -->
+-->
