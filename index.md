@@ -15,7 +15,7 @@ pdf: true
 - 联系方式：15728134982
 - 邮箱：904849722@qq.com
 - 微信：m656120722
-- CSDN博客：[https://blog.csdn.net/Gary___](https://blog.csdn.net/Gary___)
+- csdn博客: [https://blog.csdn.net/Gary___](https://blog.csdn.net/Gary___)
 - github: [https://github.com/Gary-Deeplearning](https://github.com/Gary-Deeplearning)
 - 微信公众号：Gary_Cver
 - 期望职位：计算机视觉工程师/机器学习工程师
