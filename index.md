@@ -8,10 +8,8 @@ pdf: true
 <div id="webaddress">
 <i class="fi-mail" style="margin-left:1em"></i>
 <a href="904849722@qq.com" style="margin-left:0.5em">904849722@qq.com</a>
-</div>
-<div id="home">
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="904849722@qq.com" style="margin-left:0.5em">904849722@qq.com</a>
+<a href="https://blog.csdn.net/Gary___" style="margin-left:0.5em">https://blog.csdn.net/Gary___</a>
 </div>
 
 ## 个人信息
