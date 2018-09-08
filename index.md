@@ -25,7 +25,7 @@ pdf: true
 
 ### __东莞理工学院__ `2015.9 - 至今`
 ```
-Pittsburgh, PA
+Guangdong, Dongguan
 ```
 - 网络工程
 - GPA：3.52
