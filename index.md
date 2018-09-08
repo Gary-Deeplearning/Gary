@@ -9,6 +9,10 @@ pdf: true
 <i class="fi-mail" style="margin-left:1em"></i>
 <a href="904849722@qq.com" style="margin-left:0.5em">904849722@qq.com</a>
 </div>
+<div id="home">
+<i class="fi-mail" style="margin-left:1em"></i>
+<a href="904849722@qq.com" style="margin-left:0.5em">904849722@qq.com</a>
+</div>
 
 ## 个人信息
 - 刘福旭/男/1995
