@@ -36,22 +36,26 @@ Guangdong, Dongguan
 
 ### __基于Unet的盐矿图像分割__ `2018.9 - 2018.10`
 _Programmer_<br>
-此项目为kaggle的“TGS Salt Identification Challenge”比赛，比赛的任务是基于地震图像来判断是否具有盐矿，并对盐矿进行图像分割，获得更准确的盐矿位置，本人在比赛的最终排名为53/3234(top2%，银牌)。
-Solution:
-1. 基于Se-ResNext50为backbone的Unet。
-2. 在Unet的Decoder部分加入SCSE block，并使用HyperColumn引入多尺度的图像，以获得具有更多信息的Feature。
-3. 在模型中引入Deep Supervision机制，即在最后引入一个二分类模型（有盐/无盐），和multi-loss，更加有效地防止过拟合，和加快收敛速度。
-4. Loss function使用最新发表的Lovasz loss，单独训练lovasz loss比bce+lovasz loss更能IOU精度。
-5. 在模型训练的阶段中，使用了SGDR和cycle learning rate，以逃离局部最优点，而找到下一个更优的局部最优点。
+此项目为kaggle的“TGS Salt Identification Challenge”，比赛的任务是基于地震图像来判断是否具有盐矿，并对盐矿进行图像分割，获得更准确的盐矿位置，本人在比赛的最终排名为53/3234(top2%，银牌)。
+_Solution_:<br>
+- 基于Se-ResNext50为backbone的Unet。
+- 在Unet的Decoder部分加入SCSE block，并使用HyperColumn引入多尺度的图像，以获得具有更多信息的Feature。
+- 在模型中引入Deep Supervision机制，即在最后引入一个二分类模型（有盐/无盐），和multi-loss，更加有效地防止过拟合，和加快收敛速度。
+- Loss function使用最新发表的Lovasz loss，单独训练lovasz loss比bce+lovasz loss更能IOU精度。
+- 在模型训练的阶段中，使用了SGDR和cycle learning rate，以逃离局部最优点，而找到下一个更优的局部最优点。
 <br>
 
+### __基于CNN的涂鸦识别__ `2018.9 - 至今`
+_Programmer_<br>
+此项目为Kaggle的“Doodle Recognition Challenge”，任务为建立模型以识别340个种类的涂鸦图画，目前排名top2%。
+_Solution_:<br>
+- 数据预处理，将数据中涂鸦的笔画利用Opencv绘成图片的格式，以作为CNN的Input。
+- 分别将笔画以1/3分为A,B,C，在结合AB,AC,ABC，最后形成6-channels的Input，再将6-channels与Se-Resnext50结合，以增多模型提取的特征，也有效地提高了精度。
 ### __基于目标检测的自动收银解决方案__  `2018.7 - 至今`
 _Programmer_<br>
 此项目旨在解决超市/零售商店或高校食堂，当较多人数排队结账时所造成的拥堵问题。本人在YOLO-V3的基础上，重新训练了基于商品/菜品数据的模型，目前获得较好的效果。目前在不同的模型中作对比，获取精度和是实时性更好的模型，并且尝试去优化模型。基于计算机的快速与高准确率的检测，可很大程度地减缓排队的拥堵问题，也提高了结账效率。
 <br>
-### __基于视觉的肺炎检测__ `2018.9 - 至今`
-_Programmer_<br>
-此项目为Kaggle的“RSNA Pneumonia Detection Challenge”比赛，本人目前将肺炎患者不透明的区域的x, y, width, height转换为mask，以供UNet模型进行训练，使用图像分割进行结果预测，目前在top6%名次，后期还会继续尝试去做改善。
+
 <br>
 ### __基于内容的图像检索系统__ `2018.3 - 2018-5`
 _Programmer_<br>
@@ -71,7 +75,7 @@ _Programmer_<br>
 
 ## 个人技能
 - 编程语言：Python/C++
-- 框架：TensorFlow/Keras/Sklearn/Python
+- 框架：Pytorch/Keras/Sklearn/Python
 - 图像处理：Opencv
 - 算法：基础算法与数据结构/传统机器学习算法/DNN/CNN
 - 数据库相关：MySQL
