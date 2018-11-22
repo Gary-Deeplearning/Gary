@@ -7,7 +7,7 @@ pdf: true
 
 <div id="webaddress">
 <i class="fi-mail" style="margin-left:1em"></i>
-<a href="904849722@qq.com" style="margin-left:0.5em">904849722@qq.com</a>
+<a href="liufx@dgut.edu.cn" style="margin-left:0.5em">liufx@dgut.edu.cn</a>
 </div>
 
 ## 个人信息
