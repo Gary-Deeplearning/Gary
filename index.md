@@ -54,7 +54,7 @@ _Solution_<br>
 - 数据预处理，将数据中涂鸦的笔画利用Opencv绘成图片的格式，以作为CNN的Input。
 - 分别将笔画以1/3分为A,B,C，在结合AB,AC,ABC，最后形成6-channels的Input，再将6-channels与Se-Resnext50结合，以增多模型提取的特征，也有效地提高了精度。
 - 由于数据量较大，在训练的过程中，在256甚至更大的batch下，以较大的learning_rate训练，比小batch和小learning_rate，模型训练的更好。
-- Stack，理由多个不同的模型，如ResNet50,se_Resnext50等，进行特征提取，将特征concatenate，再传入分类器。
+- Stack，利用多个不同的模型，如ResNet50,se_Resnext50等，进行特征提取，将特征concatenate，再传入分类器。
 - 在模型test阶段，利用confusion matrix，可以找到模型在哪个类别上容易预测错，手动设置threshold，以更好的适应相似类别的预测。
 <br>
 
