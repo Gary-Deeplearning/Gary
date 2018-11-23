@@ -79,6 +79,7 @@ _Solution_<br>
 _TODO_<br>
 - 采用END-TO-END方法，loss function选用triplet loss或contrastive loss。
 <br>
+
 ### __基于视觉的无人驾驶模拟玩家__ `2018.3 - 2018.5`
 _Programmer_<br>
 此项目旨在在GTA游戏的模拟真实驾驶环境下，训练一个可以自动驾驶的玩家。
