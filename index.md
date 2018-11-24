@@ -17,9 +17,7 @@ pdf: true
 - 联系方式：15728134982
 - 邮箱：904849722@qq.com
 - 微信：m656120722
-- csdn博客: [https://blog.csdn.net/Gary___](https://blog.csdn.net/Gary___)
 - github: [https://github.com/Gary-Deeplearning](https://github.com/Gary-Deeplearning)
-- 微信公众号：Gary_Cver
 - 期望职位：计算机视觉工程师/深度学习工程师
 - 期望城市：深圳/广州
 
@@ -86,14 +84,6 @@ _Solution_<br>
 _TODO_<br>
 - 采用END-TO-END方法，loss function选用triplet loss或contrastive loss。
 <br>
-
-### __基于视觉的无人驾驶模拟玩家__ `2018.3 - 2018.5`
-_Programmer_<br>
-此项目旨在在GTA游戏的模拟真实驾驶环境下，训练一个可以自动驾驶的玩家。
-_Solution_<br>
-- 手动收集多个移动方向的图片驾驶数据，用于训练self=designed CNN模型。
-- 使用预训练CNN，可以更好的提高准确率。
-- 构造一个end-to-end模型，可同时进行检测和图像分类，在多任务分支的情况下，有效避免过拟合，在车/行人的目标检测下，保持设定的距离。
 
 ## 获奖荣誉
 校二等奖学金 `2016` <br>
